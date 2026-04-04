@@ -1,0 +1,31 @@
+body{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#ListStructure{
+
+    font-size: 20px;
+    border: 2px solid Blue;
+    width: 30vw;
+    height: 70vh;
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px;
+    display: flex;
+    justify-content: center;
+    text-shadow: 1px 1px 0px;
+
+}
+
+#add{
+    border-radius: 5px;
+    box-shadow: 1px 1px 0px;
+}
+
+#list{
+    position: relative;
+    top: 50px;
+    right: 200px;
+}

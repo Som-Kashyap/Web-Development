@@ -1,0 +1,44 @@
+body {
+
+    background-color: rgb(91, 87, 106);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#notepad{
+
+    background-color: darkslategrey;
+    color: azure;
+    border: 2px solid rgb(1, 1, 17);
+    width: 30vw;
+    height: 90vh;
+    border-radius: 20px;
+    overflow-wrap: break-word;
+    /* display: flex;
+    justify-content: center; */
+
+}
+#name{
+
+    position: absolute;
+    background-color: cornflowerblue;
+    border: 2px solid;
+    border-radius: 5px;
+    box-shadow: 1px 1px 0px;
+    font-size: large;
+}
+
+#remove{
+
+    position: relative;
+    top: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+
+}
+/* 
+#textInput{
+position: absolute;
+    top: 500px;
+} */
