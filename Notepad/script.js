@@ -3,6 +3,24 @@ const addbtn = document.querySelector("#add");
 const input = document.querySelector("#textInput");
 const container = document.querySelector("#container");
 const delbtn = document.querySelector("#remove");
+const themebtn = document.querySelector("#theme");
+const notepad = document.querySelector("#notepad");
+
+const bgcolorsArray = ['#A1D2CE' , '#62A8AC'];
+const notepadColorsArray = ['#50858B','#78CAD2'];
+const notepadTextColorArray = ['#152926' , '#37626D'];
+
+themebtn.addEventListener("click" , () => {
+
+    const randomBg =bgcolorsArray[Math.floor(Math.random() * bgcolorsArray.length )];
+    const randomNp = notepadColorsArray[Math.floor(Math.random() * notepadColorsArray.length)];
+    const randomtxt = notepadTextColorArray[Math.floor(Math.random() * notepadTextColorArray.length )];
+
+     document.body.style.backgroundColor = randomBg;
+    document.getElementById("notepad").style.backgroundColor = randomNp;
+    document.getElementById("notepad").style.color = randomtxt;
+
+});
 
 window.addEventListener("DOMContentLoaded" , () => {
 

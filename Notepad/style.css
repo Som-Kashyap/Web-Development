@@ -1,6 +1,6 @@
 body {
 
-    background-color: rgb(91, 87, 106);
+    background-color: #7D1538;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,9 +8,9 @@ body {
 }
 #notepad{
 
-    background-color: darkslategrey;
-    color: azure;
-    border: 2px solid rgb(1, 1, 17);
+    background-color: #7FB7BE;
+    color: #BC2C1A;
+    border: 2px solid #DACC3E;
     width: 30vw;
     height: 90vh;
     border-radius: 20px;
@@ -35,7 +35,15 @@ body {
     top: 10px;
     border: 2px solid;
     border-radius: 5px;
+     box-shadow: 1px 1px 1px;
+}
 
+#theme{
+    position: relative;
+    top: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px;
 }
 /* 
 #textInput{
